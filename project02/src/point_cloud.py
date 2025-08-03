@@ -34,7 +34,7 @@ def plot_point_cloud(points):
 
 
 if __name__ == "__main__":
-    image_path = "image.jpeg"
+    image_path = "../original.jpeg"
 
     try:
         image = load_image(image_path)

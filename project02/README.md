@@ -63,7 +63,7 @@ project02/
 ## Results
 > Original | Depth Map | 3D Point Cloud
 
-![img.png](readme_result.png)
+![img.png](result/readme_result.png)
 
 ### 
 > 원본 이미지의 인형 형태의 3D Point Cloud가 아닌 정육면체 블록 형태의 결과가 나온 이유

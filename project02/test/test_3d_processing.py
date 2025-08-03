@@ -1,6 +1,6 @@
 import numpy as np
 import pytest
-from depth_map import generate_depth_map
+from project02.src.depth_map import generate_depth_map
 
 def test_generate_depth_map_valid():
     dummy = np.zeros((100, 100, 3), dtype=np.uint8)

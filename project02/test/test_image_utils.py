@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 import cv2
-from image_utils import load_image, cvt_to_hsv
+from project02.src.image_utils import load_image, cvt_to_hsv
 
 def test_load_image_success(tmp_path):
     path = tmp_path / "test.jpg"
