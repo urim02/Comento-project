@@ -180,13 +180,13 @@ project03/
 ├─ config/
 │  └─ data.yaml                     # train/valid/test 경로 및 클래스 정의
 ├─ datasets/
-│  ├─ train/{images, labels, images_aug, labels_aug}
+│  ├─ train/{images, labels}
+│  ├─ train_aug/{images, labels}
 │  ├─ valid/{images, labels}
 │  └─ test/{images, labels}
 ├─ results/
-│  ├─ graphs/                       # 평가 그래프 저장
-│  └─ final_predictions/            # 최종 추론 이미지
-├─ runs/                            # (옵션) threshold 스윕 로그
+│  ├─ graphs/                       # evaluate
+│  └─ final_predictions/            # 최종 test 결과
 ├─ src/
 │  ├─ config.py                     # 공통 경로/하이퍼파라미터 집합
 │  ├─ train.py                      # 증강 + 학습(YOLOv8s)
@@ -195,7 +195,7 @@ project03/
 │  ├─ yolov8s.pt                    # 백본 가중치(사전학습)
 │  └─ weights/
 │     └─ mask_detector_v2/
-│        └─ weights/{best.pt, last.pt}
+│        └─ weights/{best.pt}
 └─ README.md
 ```
 
