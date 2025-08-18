@@ -1,18 +1,23 @@
 .idea/
 .DS_Store
 
-# Ultralytics / YOLO
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+.venv/
+venv/
+
+# project03
 project03/runs/
 project03/src/runs/
-
-# Datasets
-project03/datasets/**/images*/
-project03/datasets/**/labels*/
-project03/datasets/**/images_aug*/
-project03/datasets/**/labels_aug*/
-project03/datasets/**/*.cache
-
-# Weights
+project03/datasets/**/images/
+project03/datasets/**/labels/
+project03/datasets/**/images_aug/
+project03/datasets/**/labels_aug/
+project03/datasets/**/.cache
 project03/weights/**
-!project03/weights/**/
+!project03/weights/
 !project03/weights/mask_detector_v2/weights/best.pt
+
