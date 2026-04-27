@@ -1,5 +1,6 @@
 .idea/
 .DS_Store
+__pycache__/
 
 # Ultralytics / YOLO
 project03/runs/
@@ -16,4 +17,13 @@ project03/datasets/**/*.cache
 project03/weights/**
 !project03/weights/**/
 !project03/weights/mask_detector_v2/weights/best.pt
+
+# Project04 - Personal Color
+project04/datasets/raw/
+project04/datasets/processed/
+project04/datasets/roi/
+project04/outputs/
+project04/models/**
+!project04/models/svm_ab.joblib
+!project04/models/svm_lab.joblib
 
