@@ -1,6 +1,12 @@
 .idea/
 .DS_Store
 __pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+.venv/
+venv/
 
 # Ultralytics / YOLO
 project03/runs/
@@ -26,4 +32,3 @@ project04/outputs/
 project04/models/**
 !project04/models/svm_ab.joblib
 !project04/models/svm_lab.joblib
-
